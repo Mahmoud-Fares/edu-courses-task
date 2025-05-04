@@ -63,7 +63,7 @@ export function LoginForm() {
    };
 
    return (
-      <Card className='animate-fade-in mx-auto w-full max-w-md shadow-lg'>
+      <Card className='mx-auto w-full max-w-md animate-fade-in shadow-lg'>
          <CardHeader>
             <CardTitle className='text-center text-2xl font-bold'>
                Welcome Back
@@ -116,7 +116,7 @@ export function LoginForm() {
                   />
                   <Button
                      type='submit'
-                     className='bg-edu-purple hover:bg-edu-blue w-full'
+                     className='w-full bg-edu-purple hover:bg-edu-blue'
                      disabled={isSubmitting}
                   >
                      {isSubmitting ? 'Signing in...' : 'Sign In'}

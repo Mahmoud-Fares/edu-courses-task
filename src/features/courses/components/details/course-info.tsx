@@ -49,7 +49,7 @@ export function CourseInfo({
                   <dt className='text-sm font-medium text-muted-foreground'>
                      Price
                   </dt>
-                  <dd className='text-edu-purple font-medium'>
+                  <dd className='font-medium text-edu-purple'>
                      ${price.toFixed(2)}
                   </dd>
                </div>

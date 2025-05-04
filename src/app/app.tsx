@@ -1,10 +1,14 @@
-import { Button } from '@/shared/components/ui/button';
+import { RouterProvider } from 'react-router-dom';
 
-export default function App() {
-   return (
-      <div className='flex h-screen flex-col items-center justify-center gap-4'>
-         <h1 className='text-3xl font-bold underline'>Hello world!</h1>
-         <Button>Click me</Button>
-      </div>
-   );
-}
+import { Toaster } from '@/shared/components/ui/sonner';
+
+import { router } from '@/app/router';
+
+const App = () => (
+   <>
+      <RouterProvider router={router} />
+      <Toaster />
+   </>
+);
+
+export default App;

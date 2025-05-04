@@ -12,7 +12,7 @@ export function CourseNotFound() {
             The course you're looking for doesn't exist or has been removed.
          </p>
          <Button
-            className='bg-edu-purple hover:bg-edu-blue mt-4'
+            className='mt-4 bg-edu-purple hover:bg-edu-blue'
             onClick={() => navigate('/courses')}
          >
             Browse All Courses

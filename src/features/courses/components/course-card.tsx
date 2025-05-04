@@ -39,7 +39,7 @@ export function CourseCard({ course, onDeleteClick }: CourseCardProps) {
 
    return (
       <Card
-         className='animate-fade-in group cursor-pointer overflow-hidden transition-all hover:shadow-lg'
+         className='group animate-fade-in cursor-pointer overflow-hidden transition-all hover:shadow-lg'
          onClick={handleViewDetails}
       >
          <div className='relative h-48 overflow-hidden'>
@@ -61,7 +61,7 @@ export function CourseCard({ course, onDeleteClick }: CourseCardProps) {
                <p className='text-sm text-muted-foreground'>
                   {formatDate(course.startDate)} - {formatDate(course.endDate)}
                </p>
-               <p className='text-edu-purple font-medium'>
+               <p className='font-medium text-edu-purple'>
                   ${course.price.toFixed(2)}
                </p>
             </div>

@@ -74,7 +74,7 @@ export function CourseForm({
    };
 
    return (
-      <Card className='animate-fade-in w-full'>
+      <Card className='w-full animate-fade-in'>
          <CardHeader>
             <CardTitle className='text-xl font-bold'>
                {course ? 'Edit Course' : 'Add New Course'}

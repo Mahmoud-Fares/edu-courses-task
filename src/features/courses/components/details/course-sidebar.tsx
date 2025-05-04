@@ -39,7 +39,7 @@ export function CourseSidebar({
             <p className='mb-4 text-sm text-muted-foreground'>
                From {formatDate(startDate)} to {formatDate(endDate)}
             </p>
-            <Button className='bg-edu-purple hover:bg-edu-blue w-full'>
+            <Button className='w-full bg-edu-purple hover:bg-edu-blue'>
                Enroll Now
             </Button>
          </div>
